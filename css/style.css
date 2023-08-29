@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Space-Grotesk";
+    
+  }
+  
+  @font-face {
+    font-family: "Titillium-Web";
+    src: url(../fonts/Titillim/TitilliumWeb-Italic.ttf);
+  }
+  
+  body {
+    margin: 0 auto;
+    position: relative;
+    background: radial-gradient(50% 123.47% at 50% 50%, #445e53 0%, #cfc5f7 100%), linear-gradient(121.28deg, #669600 0%, #000000 100%), linear-gradient(360deg, #9aa3d3 10%, #81e700 100%), radial-gradient(100% 164.72% at 100% 100%, #000000 0%, #ffffff 100%), radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #000000 100%) no-repeat;
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+
+  }
+  
+  
+  @font-face {
+    font-family: "Space-Grotesk";
+    src: url(../fonts/transfonter.org-20230810-101356/SpaceGrotesk-Medium.woff2) ;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'GE SS Text';
+    src: url(../fonts/GESSTextMedium-Medium.woff);
+   
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+/*   
+
+  .gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #445e53 0%, #cfc5f7 100%), linear-gradient(121.28deg, #669600 0%, #000000 100%), linear-gradient(360deg, #9aa3d3 10%, #81e700 100%), radial-gradient(100% 164.72% at 100% 100%, #000000 0%, #ffffff 100%), radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #000000 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  } */
+ h1{
+  font-family:"Titillium-Web";
+ } .box{
+text-align: center;
+padding: 20px 10px;
+}
+[type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    
+    position: relative;
+    top: -1px;
+    background: rgba(87, 154, 255, 0.63);
+    width: 19.5%;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+
+  
+}
+
+.material-icons {
+
+
+
+  color: red;}
+
+  #ToDoList{
+    padding: 0px !important;
+margin: 0;  }
+  
+.form-control {
+  display: block;
+
+  height: 45px;}
+  .p-5 {
+   
+    background: #959bd638;
+}
+
+
+
+.card {
+background-color: unset;
+border: var(--bs-card-border-width) solid rgb(131 122 122 / 18%);}
+
+
+  /* .inputTitle:read-only{
+   /* box-shadow: 0 0 0 0.25rem rgba(87, 154, 255, 0.63);  */
+   /* box-shadow:none; */
+
+
+.inputTitle{
+  outline: none;
+  box-shadow:none;
+  border: none;
+}
+
+.inputTitle{
+  width: 700px;
+}
+@media only screen and (max-width: 767px){
+  .inputTitle{
+    width: 250px !important;
+  }
+  .icons.d-flex{
+    gap:0px !important
+  }
+  .textbox.d-flex{
+    gap:0px !important
+  }
+  .p-5 {
+    padding: 1rem!important;
+}
+}
+
+[type=submit]:disabled, button:disabled{
+  cursor: pointer;
+  position: relative;
+  top: -1px;
+  background: rgba(87, 154, 255, 0.63);
+  width: 19.5%;
+  height: 45px;
+  border: none;
+  font-size: 18px;
+}
+.load img{  
+  animation: circleAnimation 5s linear infinite;
+  color: #000;
+}
+
+
+
+
+@keyframes circleAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
