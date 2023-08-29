@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const inputValue = itemInput.value; // Get the input value
         if(inputValue==""){
             alert("Go home")
-            return
+            return;
         }
         addBtn.disabled = true; 
         addBtn.innerHTML="<img src=\"icons/progress_activity_FILL0_wght400_GRAD0_opsz24.svg\" >"
